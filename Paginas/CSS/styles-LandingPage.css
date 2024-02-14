@@ -328,6 +328,70 @@ main .contenedor {
  font-style: normal;
 }
 
+.contenido {
+  flex: 3;
+  font-size: 80px;
+}
+.contenedor h2.temas {
+  font-size: 80px; /* Ajusta el tamaño de la letra para h2 */
+  margin-bottom: 10px;
+}
+.contenedor h3.temas {
+  font-size: 80px; /* Ajusta el tamaño de la letra para h3 */
+  margin-bottom: 10px;
+}
+
+.textoTemas {
+  font-size: 25px; /* Ajusta el tamaño de la letra para el texto */
+}
+
+
+#quienesSomos{
+  margin-top: 80px;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 200px;
+  position: relative;
+}
+#quienesSomos p{
+ margin-right: 500px;
+}
+#quienesSomos img{
+  position: absolute;
+  float:right;
+  right: 0;
+  margin-left: 20px;
+  z-index: 2;
+  
+}
+#especiolizacion h3{
+  margin-left: 480px;
+  right: 0; 
+}
+#especiolizacion{
+  width: 100%;
+  height: 400px;
+  margin-bottom: 200px;
+  position: relative;
+}
+#especiolizacion p{
+  margin-left: 500px;
+}
+#especiolizacion img{
+  position: absolute;
+  float:left;
+  left: 0;
+  margin-right: 20px;
+  z-index: 2;
+  margin-bottom: 130px;
+  
+}
+#dondeEstamos{
+  width: 100%;
+  height: 400px;
+  margin-bottom: 200px;
+}
+
 .osquitar{
   color: #171a4a;
 }
