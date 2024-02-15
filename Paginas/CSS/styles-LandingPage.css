@@ -391,6 +391,9 @@ main .contenedor {
   height: 400px;
   margin-bottom: 200px;
 }
+#dondeEstamos iframe{
+  right: 0;
+}
 
 .osquitar{
   color: #171a4a;
